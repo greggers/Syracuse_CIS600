@@ -100,7 +100,7 @@ def demonstrate_hyperparameter_tuning():
         param_grid,
         cv=5,
         scoring='accuracy',
-        n_jobs=-1
+        n_jobs=1
     )
     
     # Fit GridSearchCV on training data
